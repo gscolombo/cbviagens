@@ -25,9 +25,6 @@ import type { ResponseModel } from '@/models/response.model';
             return;
         }
 
-        // Account for incorrect encoding in the database
-        data.destination = data.destination === 'São Paulo' ? 'SÃ£o Paulo' : data.destination; 
-
         resultsPanel.value!.loading = true;
         const q = `?city=${data.destination}&departureDate=${data.period}`;
         const response = await fetch(`http://localhost:3000/travels${q}`);
