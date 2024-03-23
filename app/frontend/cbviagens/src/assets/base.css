@@ -1,0 +1,16 @@
+/* semantic color variables for this project */
+:root {
+  --color-background: #292f50;
+  --font-color-main: white;
+  --font-color-sec: rgb(57, 57, 57);
+  --font-color-text: black;
+  --font-family: "Istok Web", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}

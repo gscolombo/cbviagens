@@ -1,0 +1,28 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+}
+
+ul {
+  padding: 0;
+}
+
+h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin-top: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-background);
+}
