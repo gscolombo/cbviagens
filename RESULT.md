@@ -24,7 +24,7 @@ No arquivo **serializers.py**, está implementada somente uma classe responśave
 
 Por fim, na pasta **/*migrations*** estão contidas as migrações do banco de dados. A primeira é responsável pela criação das tabelas de acordo com os modelos implementados em **models.py**. A segunda migração realiza a inclusão dos dados pré-disponibilizados no banco de dados.
 
-## *Front_end*
+## *Front-end*
 Utilizei o Vue3 com a *Compositions* API para implementação da interface do cliente. No script de inicialização do servidor, inclui a instalação do NVM (_Node Version Manager_) para instalar a versão 20 do Node.JS, para evitar quaisquer erros de incompatibilidade de versões ao iniciar o servidor.
 
 Inicialmente, removi algumas configurações iniciais incluídas no inicializador de projetos do Vue. Removi algumas regras de estilo nos arquivos **base.css** e **main.css** em **/public** e deletei os arquivos **.vue**, exceto pelo **App.vue**. Nele, implementei a base da tela inicial, com os seguintes componentes:
